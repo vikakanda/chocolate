@@ -1,0 +1,49 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #434455;
+    background-color: #fff;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {}
+
+.header-nav {}
+
+.header-title {
+        font-style: italic;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.11111;
+        letter-spacing: -0.03em;
+        color: #111;
+}
+
+.header-logo {}
+
+.nav-list {}
+
+.nav-item {}
+
+.nav {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14286;
+        letter-spacing: -0.02em;
+        color: #111;
+}
+
+.socials-list {}
+
+.socials-item {}
+
+.socials {}
+
+.socials-logo {}

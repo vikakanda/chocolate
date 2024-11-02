@@ -4,55 +4,70 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+        <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header id="Home">
-      <nav>
-        <a href="./index.html"
+    <header class="header" id="Home">
+      <nav class="header-nav">
+        <a class="header-title" href="./index.html"
           >SIMPLY CHOCOLATE
-          <img src="./images/chocolate.svg" alt="logo simply chocolate" />
+          <img
+            class="header-logo"
+            src="./images/chocolate.svg"
+            alt="logo simply chocolate"
+          />
         </a>
-        <ul>
-          <li>
-            <a href="#home">Home</a>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav" href="#home">Home</a>
           </li>
           <li>
-            <a href="#main">How it’s made?</a>
-          </li>
+            <a class="nav" href="#main">How it’s made?</a>
+          </li class="nav-item">
           <li>
-            <a href="#reviews">Chocolate is loved</a>
-          </li>
+            <a class="nav" href="#reviews">Chocolate is loved</a>
+          </li class="nav-item">
         </ul>
       </nav>
-      <ul>
-        <li>
-          <a
+      <ul class="socials-list">
+        <li class="socials-item">
+          <a class="socials"
             href="https://www.facebook.com/"
             target="_blank"
             rel="noopener noreffener"
             aria-label="link to facebook"
           >
-            <img src="./images/icon-facebook.svg" alt="logo facebook" />
+            <img class="socials-logo" src="./images/icon-facebook.svg" alt="logo facebook" />
           </a>
         </li>
-        <li>
-          <a
+        <li class="socials-item">
+          <a class="socials"
             href="https://www.instagram.com/"
             target="_blank"
             rel="noopener noreffener"
             aria-label="link to facebook"
           >
-            <img src="./images/icon-instagram.svg" alt="logo instagram" />
+            <img class="socials-logo" src="./images/icon-instagram.svg" alt="logo instagram" />
           </a>
         </li>
-        <li>
-          <a
+        <li class="socials-item">
+          <a class="socials"
             href="https://x.com"
             target="_blank"
             rel="noopener noreffener"
             aria-label="link to twitter"
           >
-            <img src="./images/icon-twitter.svg" alt="logo twitter" />
+            <img class="socials-logo" src="./images/icon-twitter.svg" alt="logo twitter" />
           </a>
         </li>
       </ul>
